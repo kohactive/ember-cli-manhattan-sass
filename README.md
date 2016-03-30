@@ -1,26 +1,38 @@
-# Ember-cli-manhattan-sass
+# ember-cli-manhattan-sass
 
-This README outlines the details of collaborating on this Ember addon.
+Include the [Manhattan grid](https://github.com/kohactive/manhattan) in an ember-cli app.
 
-## Installation
+When the addon is installed, it will add bourbon, neat, and manhattan as a bower dependencies.
 
-* `git clone` this repository
-* `npm install`
-* `bower install`
+## Dependencies
 
-## Running
+Your project should already be set up to handle sass/scss builds. If you're not, do so by running:
+
+    ember install ember-cli-sass
+
+## Usage
+
+In your ember-cli (> 0.1.5) project, run:
+
+    ember install ember-cli-manhattan-sass
+
+In older versions of ember-cli, run:
+
+    npm install ember-cli-manhattan-sass --save-dev
+    ember g ember-cli-manhattan-sass
+
+The generator will create an `app.scss` with the sole contents being:
+
+    @import "ember-manhattan";
+
+## Developing this Addon
 
 * `ember server`
-* Visit your app at http://localhost:4200.
+* Visit the dummy app at http://localhost:4200.
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
-## Building
-
-* `ember build`
-
-For more information on using ember-cli, visit [http://ember-cli.com/](http://ember-cli.com/).
+For more information on using ember-cli, visit [http://www.ember-cli.com/](http://www.ember-cli.com/).
