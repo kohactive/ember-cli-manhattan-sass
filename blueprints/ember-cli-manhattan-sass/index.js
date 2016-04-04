@@ -17,7 +17,7 @@ module.exports = {
       },
       {
         name: 'manhattan',
-        target: '0.5.0'
+        target: '0.5.1'
       }
     ]);
   }
