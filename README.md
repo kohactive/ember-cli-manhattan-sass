@@ -12,7 +12,7 @@ Your project should already be set up to handle sass/scss builds. If you're not,
 
 ## Usage
 
-In your ember-cli (> 0.1.5) project, run:
+In your ember-cli (> 0.2.3) project, run:
 
     ember install ember-cli-manhattan-sass
 
@@ -23,7 +23,7 @@ In older versions of ember-cli, run:
 
 The generator will create an `app.scss` with the sole contents being:
 
-    @import "ember-manhattan";
+    @import "manhattan";
 
 ## Developing this Addon
 
