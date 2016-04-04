@@ -1,7 +1,7 @@
 {
   "name": "ember-cli-manhattan-sass",
-  "version": "0.0.1",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.5.1",
+  "description": "Use the Manhattan grid in ember-cli projects.",
   "directories": {
     "doc": "doc",
     "test": "tests"
